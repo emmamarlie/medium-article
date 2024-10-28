@@ -1,0 +1,55 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+p,h1,h2 {
+ text-align: center;
+}
+
+a {
+  text-align: center;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  color: #F8F7F7;
+  font-weight: 600;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #1B263B;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #DFBBBB;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.img-animal2 {
+  width: 100%;
+}
+
+.banner {
+  background-size: cover;
+  background-color: #DFC6C6;
+  padding: 20px 0;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
